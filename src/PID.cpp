@@ -31,7 +31,7 @@ void PID::Init(double Kp, double Ki, double Kd) {
 }
 
 void PID::UpdateError(double cte) {
-  // Proportinal error.
+  // Proportional error.
   p_error = cte;
 
   // Integral error.
